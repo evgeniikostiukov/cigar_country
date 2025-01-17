@@ -13,6 +13,8 @@ import Aura from '@primevue/themes/Aura';
 import ComfirmationSerivce from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
 import Tooltip from 'primevue/tooltip';
+import AnimateOnScroll from 'primevue/animateonscroll';
+
 const currentEnv = import.meta.env.VITE_NODE_ENV;
 
 const myPreset = definePreset(Aura, {
@@ -35,6 +37,8 @@ const myPreset = definePreset(Aura, {
 
 async function main() {
   const app = createApp(App);
+
+  app.directive('animateonscroll', AnimateOnScroll);
 
   app.use(createPinia());
   app.use(router);
