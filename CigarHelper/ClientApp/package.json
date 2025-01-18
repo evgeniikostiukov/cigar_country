@@ -19,9 +19,11 @@
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
     "@primevue/themes": "^4.2.5",
+    "@types/lodash": "^4.17.14",
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "immutable-css": "^1.1.2",
+    "lodash": "^4.17.21",
     "pinia": "^2.3.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.2.5",

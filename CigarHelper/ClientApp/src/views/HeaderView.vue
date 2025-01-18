@@ -64,6 +64,7 @@
           aria-controls="overlay_menu"
         > -->
         <Avatar
+          class="select-none"
           image="/my_avatar.JPEG"
           shape="circle"
           size="large"
@@ -182,6 +183,14 @@ const accountMenu = useTemplateRef('account_menu'),
       command: () => {
         //TODO добавить айдишник пользователя
         router.push({ name: 'humidor', params: {} });
+      },
+    },
+    {
+      label: 'Избранное',
+      icon: 'prime:star',
+      visible: true,
+      command: () => {
+        router.push({ name: 'favorites' });
       },
     },
     {

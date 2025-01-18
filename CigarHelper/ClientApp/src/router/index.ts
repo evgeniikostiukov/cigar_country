@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'humidor',
       component: () => import('@/views/HumidorView.vue'),
     },
+    {
+      path: '/favorites',
+      name: 'favorites',
+      component: () => import('@/views/FavoritesView.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

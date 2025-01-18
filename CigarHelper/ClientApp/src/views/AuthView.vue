@@ -5,7 +5,7 @@
     <div
       class="rounded-xl bg-[rgba(255,255,255,0.1)] p-12 text-center shadow backdrop-blur-md lg:w-[30rem]"
     >
-      <div class="mb-12 text-4xl font-medium">Добро пожаловать</div>
+      <div class="mb-12 select-none text-4xl font-medium">Добро пожаловать</div>
       <FloatLabel variant="in">
         <InputText
           type="text"
