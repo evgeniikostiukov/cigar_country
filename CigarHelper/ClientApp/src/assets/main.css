@@ -1,9 +1,9 @@
 /* @import './base.css'; */
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
 /* @import "./primevue/tailwind.css"; */
-@import "tailwindcss/utilities";
+@import 'tailwindcss/utilities';
 
 #app {
   width: 100vw;
@@ -12,6 +12,7 @@
   max-height: 100vh;
   margin: 0 auto;
   padding: 0;
+  overflow-x: auto;
   font-weight: normal;
 }
 /* 
