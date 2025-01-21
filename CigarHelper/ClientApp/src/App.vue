@@ -2,8 +2,7 @@
 import AlertAdult from '@/components/AlertAdult.vue';
 import HeaderView from '@/views/HeaderView.vue';
 import { ConfirmDialog, Toast } from 'primevue';
-import { RouterView } from 'vue-router';
-import './assets/base.css'; /* PartiallyEnd: #3632/scriptSetup.vue */
+import './assets/base.css';
 </script>
 
 <template>

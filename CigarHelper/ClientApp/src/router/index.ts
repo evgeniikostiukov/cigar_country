@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'favorites',
       component: () => import('@/views/FavoritesView.vue'),
     },
+    {
+      path: '/auth',
+      name: 'auth',
+      component: () => import('@/views/AuthView.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

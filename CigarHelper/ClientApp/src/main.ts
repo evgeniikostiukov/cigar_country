@@ -39,7 +39,6 @@ async function main() {
   const app = createApp(App);
 
   app.directive('animateonscroll', AnimateOnScroll);
-
   app.use(createPinia());
   app.use(router);
   app.use(PrimeVue, {
